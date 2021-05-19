@@ -6,7 +6,7 @@ metadata:
   labels:
     app: minecraft-server
 spec:
-  replicas: 7
+  replicas: 0
   selector:
     matchLabels:
       app: minecraft-server
