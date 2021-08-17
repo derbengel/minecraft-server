@@ -75,7 +75,7 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   claimRef:
-     namespace: default
+     namespace: minecraft
      name: minecraft-server-nfs-pvc
   mountOptions:
     - hard
