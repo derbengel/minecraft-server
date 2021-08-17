@@ -6,7 +6,7 @@ metadata:
   labels:
     app: minecraft-server
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: minecraft-server
@@ -69,7 +69,7 @@ metadata:
   name: minecraft-server-nfs-pv
 spec:
   capacity:
-    storage: 5Gi
+    storage: 10Gi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteMany
@@ -92,4 +92,4 @@ spec:
     - ReadWriteMany
   resources:
     requests:
-      storage: 5Gi
+      storage: 10Gi
