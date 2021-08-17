@@ -87,7 +87,6 @@ kind: PersistentVolumeClaim
 metadata:
   name: minecraft-server-nfs-pvc
 spec:
-  storageClassName: nfs
   accessModes:
     - ReadWriteMany
   resources:
