@@ -74,7 +74,6 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Recycle
-  storageClassName: nfs
   mountOptions:
     - hard
     - nfsvers=4.1
