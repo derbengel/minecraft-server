@@ -20,7 +20,7 @@ spec:
         image: itzg/minecraft-server:java17
         resources:
           limits:
-            memory: 2Gi
+            memory: 2.5Gi
           requests:
             memory: 1.5Gi
         env:
